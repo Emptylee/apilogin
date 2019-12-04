@@ -1,28 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        button{
-            width:300px;
-            height:100px;
-        }
-    </style>
-</head>
-<body>
-    <button id="btn1">点击跳转hbuilder登录</button>
-    <button id="btn2">点击跳转hbuilder支付</button>
-
-<script>
-    document.getElementById('btn1').onclick = function(){
-        window.location.href = 'hbuilder://loginyxb?scheme=123&app_id=1197030077309722624&params=1&redirect_url=http://120.40.77.185:59990';
-    }
-    document.getElementById('btn2').onclick = function(){
-        window.location.href = 'hbuilder://pay?scheme=123&app_id=1197030077309722624&out_order_id=201912011201318527080910848&pre_order_id=57d3294c071b4380aca0622daf1a2e14&params=3&redirect_url=http://120.40.77.185:59990';
-    }
-</script>
-</body>
-</html>
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>易讯宝第三方登录</title><script>document.addEventListener('DOMContentLoaded', function() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+            })
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')</script><link rel=stylesheet href=/apilogin/static/index.css></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=/apilogin/static/js/chunk-vendors.e162215f.js></script><script src=/apilogin/static/js/index.7b7a3a45.js></script></body></html>
